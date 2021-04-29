@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="CSS/Homepage.css">
+<link rel="stylesheet" href="CSS/Caricamento.css">
+<link rel="icon" href="MEDIA/CAMCO_icona.png">
+<script src="https:/ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="JAVASCRIPT/Homepage.js"></script>
+<title>CAMCO - CAM Counter</title>
+</head>
+<body>
+  <div id="loading">
+    <div class="loader-wrapper">
+      <img src="MEDIA/CAMCO_loading.gif">
+    </div>
+  </div>
+  <div class="page">
+    <br><br><br><br><br><br>
+    
+    <nav class="container-nav">
+      <div class="header">
+        <img id="logo" src="MEDIA/CAMCO_logo.gif">
+        <h1 class="titolo">
+          CAMCO - CAM Counter
+        </h1>
+        <select name="lang-switch" id="lang-switch">
+            <option value="en">&#127468;&#127463;</option>
+            <option value="it" selected>&#127470;&#127481;</option>
+        </select>
+        <p id="demo"></p>
+      </div>
+    </nav>
+    <div class="row">
+      
+      <div class="col-12 menu" lang="it">
+        <div class="testo">
+          <h1>CHI SIAMO</h1>
+          <p>"CAMCO - CAM Counter" &#232; l'impresa nata grazie al progetto Junior Achievements ed &#232; composta dai membri della classe 4I dell'Istituto Tecnico Tecnologico Statale O. Belluzzi - L. da Vinci situato a Rimini.</p>
+          <p>Il progetto JA consiste nella creazione da parte degli studenti di una mini-azienda a scopo formativo, permettendo cos&#236; alle terze, quarte e quinte delle scuole superiori di sperimentare la creazione di un' azienda.</p>
+          </div>
+        <div class="tele">
+          <ul>
+            <li><a href="#parte1"><div>COME LAVORIAMO</div></a></li>
+            <li><a href="#parte2"><div>VANTAGGI</div></a></li>
+            <li><a href="#parte0"><div>CONTATTI</div></a></li>
+          </ul>
+        </div>
+        <div class="testo">
+        <h1>IL NOSTRO OBIETTIVO</h1>
+        <p>L'obiettivo di "CAMCO - CAM Counter" &#232; quello di sviluppare un software, che grazie all'intelligenza artificiale e sistemi di acqusizione video (anche già presenti), riesce a contare il numero di persone presenti in un determinato luogo.</p>
+        <p>Tale software &#232; stato pensato per monitorare il flusso di clienti di una qualsiasi impresa (negozio, ristorante, hotel o qualsiasi mezzo di trasporto) fornendo statistiche dettagliate (anche in tempo reale) sull'affollamento del luogo.</p>
+        </div>
+          <img class="banner" src="MEDIA/CAMCO_repartiIT.png">
+        
+        <div class="testo">
+        <a id="parte1"><h1>COME LAVORIAMO</h1></a>
+        <p>Ognuno di noi ha scelto uno tra tre reparti (Finanze, Marketing, Sviluppo), a seconda delle proprie competenze e interessi, dando così vita al team definitivo.</p>
+        <p>Il settore finanze si &#232; occupato della parte burocratica per la creazione dell'impresa e della creazione dei piani d'acquisto.</p>
+        <p>Il settore marketing, oltre alla creazione di questo sito, si &#232; occupato anche della realizzazione dell'elevator pitch, mezzo fondamentale per la presentazione dell'impresa.</p>
+        <p>Il settore sviluppo si &#232; invece occupato della vera e propria realizzazione del prodotto.</p>
+        </div>
+        <div class="slideshow-container">
+
+          <!-- Full-width images with number and caption text -->
+          <div class="fade">
+            <div class="numbertext">1 / 2</div>
+            <img src="MEDIA/CAMCO_bannerCodeArea.png" style="width:100%">
+            <p class="textimg">Visualizzazione area esterna</p>
+          </div>
+        
+          <div class="fade">
+            <div class="numbertext">2 / 2</div>
+            <img src="MEDIA/CAMCO_bannerCodeTracker.png" style="width:100%">
+            <p class="textimg">Tracking delle persone</p>
+          </div>
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+          <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+        
+        <div class="testo">
+        <a id="parte2"><h1>I VANTAGGI</h1></a>
+        <p>Il principale problema che il nostro prodotto risolve &#232; la mancanza di statistiche sull'affollamento dei luoghi pubblici. Infatti, in precedenza per ottenere queste informazioni era necessaria una persona con i relativi problemi che la conseguono.</p>
+        <p>Tra i vantaggi del nostro prodotto ricordiamo che:</p>
+          <p>
+            &#9632; Automatico
+          </p>
+          <p>
+            &#9632; Integrabile nei sistemi di videosorveglianza già presenti
+          </p>
+          <p>
+            &#9632; Generazione di statistiche (anche in tempo reale)
+          </p>
+          <p>
+            &#9632; Privacy garantita, dato che nessun umano gestisce il conteggio
+          </p>
+        
+        </div>
+        <br><br><br>
+        <a id="parte0">
+          <footer class="contatti">
+              <h1>CONTATTI</h1>
+              <p>📧 camco.camcounter@gmail.com</p>
+              <a href="https://www.youtube.com/channel/UCy3lNKrM8aUpDFud5HlO4Zg"><img class="logomin" src="MEDIA/CAMCO_youtubeLogo.png">Il nostro canale</a>
+            </footer>
+        </a>
+      </div>
+      
+  </div>  
+
+
+</body>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="JAVASCRIPT/Animation.js"></script>
+<script src="JAVASCRIPT/Language.js"></script>
+
+</html>
